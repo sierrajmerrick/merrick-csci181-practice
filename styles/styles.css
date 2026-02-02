@@ -128,7 +128,7 @@ nav ul {
 }
 
 #hero-image {
-    background-image: url(../images/0017_17.jpg);
+    background-image: url('../images/0017_17.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
