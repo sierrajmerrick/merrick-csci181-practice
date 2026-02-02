@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 16px;  /* root font size */
+    box-sizing: border-box; /* box model */
+    background-color: #FFFAF0;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit; /* inherit border box by default */
+}
+
+* {
+    margin: 0; /* remove default margin */
+}
+
+body {
+    min-height: 100vh;
+    color: #2D3319;
+    font-size: 1rem; /* 1x root font size (16px) */
+    line-height: 1.5rem; /* 1.5x root font size*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit; 
+}
+
+h1 {
+    color: #517664;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2D3319;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
