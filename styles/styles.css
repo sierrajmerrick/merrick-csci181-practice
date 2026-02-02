@@ -95,3 +95,38 @@ section.page-section {
     width:100%;
     max-width:1920px;
 }
+
+#page-header {
+    padding: 1rem 1.5rem;
+}
+
+#page-header.logo {
+    color:#2D3319;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#main-nav a {
+    padding: .5rem .75rem;
+}
+
+#hero {
+    background-image: url(/github/merrick-csci181-practice/images/0017_17.jpg);
+    width: 100%;
+    aspect-ratio: 16/4;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#hero.display-text {
+    width: 100%;
+    color:#2D3319;
+}
+
+#hero button {
+    margin-top: 1rem;
+}
