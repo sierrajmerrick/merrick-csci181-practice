@@ -87,3 +87,11 @@ button {
     border: 1px #2D3319;
     font-weight: normal;
 }
+
+section.page-section {
+    padding:1.5rem;
+    border:1px #517664;
+    margin:0 auto 1 rem auto;
+    width:100%;
+    max-width:1920px;
+}
