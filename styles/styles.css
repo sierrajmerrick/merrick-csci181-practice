@@ -120,12 +120,6 @@ section.page-section {
     padding: 1rem 1.5rem;
 }
 
-#page-header.logo {
-    color:#2D3319;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.25rem;
-}
-
 nav ul {
     list-style-type: none;
     padding-left: 0;
