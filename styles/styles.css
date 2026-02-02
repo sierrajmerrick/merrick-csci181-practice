@@ -112,6 +112,7 @@ section.page-section {
     font-size:1.953rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    line-height:2.5rem;
 }
 #page-header {
     padding: 1rem 1.5rem;
