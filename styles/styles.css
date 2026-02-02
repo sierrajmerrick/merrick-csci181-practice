@@ -40,7 +40,50 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, 
+p {
     color: #2D3319;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    font-size: 1.953rem;
+    font-weight: bolder;
+    line-height: 2.5rem; 
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.563rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: .75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-bottom:.25rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: #E3DAC9;
+    color: #517664;
+    border: 1px #2D3319;
+    font-weight: normal;
 }
