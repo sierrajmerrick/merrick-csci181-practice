@@ -88,6 +88,17 @@ small {
     margin-bottom: .25rem;
 }
 
+a {
+    color:#2D3319;
+    font-weight: normal;
+    line-height: 1.5rem;
+    margin-bottom: .25rem;
+}
+
+a:hover {
+    color:#517664;
+}
+
 button {
     padding: 1rem;
     background-color: #E3DAC9;
@@ -121,15 +132,7 @@ section.page-section {
 nav ul {
     list-style-type: none;
     padding-left: 0;
-}
-
-#main-nav a {
     padding: .5rem .75rem;
-    color:#2D3319;
-}
-
-#main-nav:hover {
-    color:#517664;
 }
 
 #hero {
