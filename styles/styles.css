@@ -136,6 +136,7 @@ nav ul {
     margin-bottom: 2rem;
     padding: 10rem 2rem;
     text-align: center;
+    filter:brightness(80%)
 }
 
 #hero-image.display-text {
