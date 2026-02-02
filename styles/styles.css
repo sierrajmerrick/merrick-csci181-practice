@@ -144,8 +144,6 @@ nav ul {
 }
 
 #hero-image.display-text {
-    background-size: cover;
-    background-position: bottom;
     width: 100%;
     color:#E3DAC9;
 }
