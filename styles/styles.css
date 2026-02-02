@@ -123,6 +123,8 @@ nav ul {
 }
 
 #hero.display-text {
+    background-size: cover;
+    background-position: bottom;
     width: 100%;
     color:#2D3319;
 }
