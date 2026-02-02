@@ -1,34 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-    font-size: 16px;  /* root font size */
-    box-sizing: border-box; /* box model */
+    font-size: 16px;  
+    box-sizing: border-box; 
     background-color: #FFFAF0;
 }
 
 *,
 *::before
 *::after {
-    box-sizing: inherit; /* inherit border box by default */
+    box-sizing: inherit; 
 }
 
 * {
-    margin: 0; /* remove default margin */
+    margin: 0;
 }
 
 body {
     min-height: 100vh;
     color: #2D3319;
-    font-size: 1rem; /* 1x root font size (16px) */
-    line-height: 1.5rem; /* 1.5x root font size*/
+    font-size: 1rem; 
+    line-height: 1.5rem; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-input,
-button,
-textarea,
-select {
-    font: inherit; 
 }
 
 h1 {
@@ -100,6 +93,7 @@ a:hover {
 }
 
 button {
+    font: inherit
     padding: 1rem;
     background-color: #E3DAC9;
     color: #517664;
@@ -135,8 +129,8 @@ nav ul {
     padding: .5rem .75rem;
 }
 
-#hero {
-    background-image: url(/images/0017_17.jpg);
+#hero-image {
+    background-image: url(./images/0017_17.jpg);
     width: 100%;
     aspect-ratio: 16/4;
     margin-bottom: 2rem;
