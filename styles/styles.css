@@ -91,7 +91,7 @@ a:hover {
 }
 
 button {
-    font: inherit
+    font: inherit;
     padding: 1rem;
     background-color: #E3DAC9;
     color: #517664;
