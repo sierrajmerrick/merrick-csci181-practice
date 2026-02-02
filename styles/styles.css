@@ -55,28 +55,25 @@ h3 {
     font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.5rem;
-    margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 h4 {
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.5rem;
-    margin-bottom:.25rem;
 }
 
 p {
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5rem;
-    margin-bottom: .25rem;
 }
 
 small {
     font-size: .75rem;
     font-weight: lighter;
     line-height: 1.5rem;
-    margin-bottom: .25rem;
 }
 
 a {
