@@ -81,6 +81,13 @@ p {
     margin-bottom: .25rem;
 }
 
+small {
+    font-size: .75rem;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    margin-bottom: .25rem;
+}
+
 button {
     padding: 1rem;
     background-color: #E3DAC9;
@@ -118,6 +125,11 @@ nav ul {
 
 #main-nav a {
     padding: .5rem .75rem;
+    color:#2D3319;
+}
+
+#main-nav:hover {
+    color:#517664;
 }
 
 #hero {
