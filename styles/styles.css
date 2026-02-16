@@ -187,7 +187,7 @@ nav ul {
     background-position:bottom center;
     background-repeat: no-repeat;
     height: 25vh;
-    width: 100%;
+    width: 100vw;
     aspect-ratio: 16/4;
     margin-bottom: 2rem;
     padding: 10rem 2rem;
@@ -228,7 +228,7 @@ nav ul {
 .card-img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card-content {
