@@ -9,7 +9,7 @@ main {
 }
 
 *,
-*::before
+*::before,
 *::after {
     box-sizing: inherit; 
 }
