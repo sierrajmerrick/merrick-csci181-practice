@@ -1,3 +1,5 @@
+@layer base {
+
 html {
     font-size: 16px;  
     box-sizing: border-box; 
@@ -113,13 +115,6 @@ button:hover {
     color:#E3DAC9;
 }
 
-header {
-    background-color:#E3DAC9;
-    padding: 1rem 1.5rem;
-    position: sticky;
-    top: 0;
-}
-
 #page-header {
     background-color:#FFFAF0;
     padding: 1rem 1.5rem;
@@ -140,7 +135,7 @@ header {
     border:1px #517664;
     border-style: solid;
     padding: 1.5rem;
-    margin:auto;
+    margin: 2rem auto;
     width:60vw;
     background-color:#517664;
     color: #E3DAC9;
@@ -151,6 +146,11 @@ header {
 textarea {
     resize:none;
     width: 50%;
+    background-color:#FFFAF0;
+}
+
+input {
+    background-color: #FFFAF0;
 }
 
 table {
@@ -177,7 +177,6 @@ th, td {
 
 nav ul {
     list-style-type: none;
-    padding-left: 0;
     padding: .5rem .75rem;
 }
 
@@ -241,3 +240,4 @@ nav ul {
     color:#E3DAC9;
 }
 
+}

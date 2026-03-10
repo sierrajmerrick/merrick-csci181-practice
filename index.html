@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Home- Sierra Merrick's portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
@@ -80,8 +81,70 @@
           </article>
         </li>
         </ul>
-
     </section>
+
+    <!--Testimonials-->
+    <section>
+      <ul class="grid grid-cols-3 gap-5 m-4 md:2 lg:3">
+
+        <li class="p-4 rounded-xl shadow-lg bg-neutral-50 grid grid-cols-6 h-auto">
+          <img src="./images/“.svg" class="opacity-10 w-8 h-8"/>  
+          <figure class="grid col-span-5">
+            <blockquote>
+              <br>
+              <p class="font-thin font-sans italic">CSCI completely changed how I think about the internet. I finally understand the 'magic' behind the websites I use every day.</p>
+            </blockquote>
+            <figcaption class="p-4 grid col-span-5 gap-2 items-end">
+              <div class="grid grid-cols-4">
+                <img class="w-12 h-12 rounded-full object-cover" src="./images/pexels-kampus-7983621.jpg" alt="headshot of Leroy Jenkins" />
+                <div class="col-span-3">
+                  <p class="font-semibold font-sans">Leroy Jenkins</p>
+                  <p class="font-thin font-sans text-xs">Freshman, Computer Science</p>
+               </div>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="p-4 rounded-xl shadow-lg bg-neutral-50 grid grid-cols-6 h-auto">
+          <img src="./images/“.svg" class="opacity-10 w-8 h-8"/>  
+          <figure class="grid col-span-5">
+            <blockquote>
+              <br>
+              <p class="font-thin font-sans italic">Now I have the confidence to build my own website. The instructor was really supportive and the material was always relevant.</p>
+            </blockquote>
+            <figcaption class="p-4 grid col-span-5 gap-2 items-end">
+              <div class="grid grid-cols-4">
+                <img class="w-12 h-12 rounded-full object-cover" src="./images/pexels-olly-762020.jpg" alt="headshot of Jessica Jones" />
+                <div class="col-span-3">
+                  <p class="font-semibold font-sans">Jessica Jones</p>
+                  <p class="font-thin font-sans text-xs">Freshman, Software Engineering</p>
+               </div>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="p-4 rounded-xl shadow-lg bg-neutral-50 grid grid-cols-6 h-auto">
+          <img src="./images/“.svg" class="opacity-10 w-8 h-8"/>  
+          <figure class="grid col-span-5">
+            <blockquote>
+              <br>
+              <p class="font-thin font-sans italic">I learned so much about the principles of design and usability. I didn't know coding could be so fun and creative!</p>
+            </blockquote>
+            <figcaption class="p-4 grid col-span-5 gap-2 items-end">
+              <div class="grid grid-cols-4">
+                <img class="w-12 h-12 rounded-full object-cover" src="./images/pexels-olly-3807770.jpg" alt="headshot of Yamada Hanako" />
+                <div class="grid col-span-3">
+                  <p class="font-semibold font-sans">Yamada Hanako</p>
+                  <p class="font-thin font-sans text-xs">Junior, Media Arts</p>
+               </div>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+
+    <!--Contact form-->
     <section id="contact-form">
       <form>
         <h2>Contact Me</h2>
