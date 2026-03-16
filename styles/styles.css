@@ -175,9 +175,13 @@ th, td {
     color:#FFFAF0;
 }
 
-nav ul {
+#main-nav ul {
     list-style-type: none;
     padding: .5rem .75rem;
+}
+
+#main-nav a {
+    text-decoration: none;
 }
 
 #hero-image {
@@ -258,7 +262,7 @@ nav ul {
   z-index: 1000;
 }
 
-nav a[aria-current="page"] {
+#main-nav a[aria-current="page"] {
     text-decoration: underline;
 }
 
