@@ -240,4 +240,37 @@ nav ul {
     color:#E3DAC9;
 }
 
+.skip-link {
+  position: absolute;
+  right: 10px;
+  width:auto;
+  top: 0; 
+  padding: 0.5rem 0.75rem;
+  background: #000; /* Feel free to adjust look and feel for your site */
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.skip-link:focus {
+  left: 0.75rem;
+  top: 0.75rem;
+  background-color: #E3DAC9;
+  color:#2D3319;
+  z-index: 1000;
+}
+
+nav a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 }
