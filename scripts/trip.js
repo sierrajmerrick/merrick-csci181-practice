@@ -28,7 +28,7 @@ if(is_round_trip) {
 } else {
     total_distance = distance_miles;
 }
-console.log("Round trip Missoula, MT ---> High Point, NC")
+console.log("Round trip Missoula, MT ---> Great Falls, MT")
 console.log(`Total distance (in miles): ${total_distance}`);
 
 const gallons_needed = calculateGallonsNeeded (total_distance, mpg);
