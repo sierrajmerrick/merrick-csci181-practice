@@ -4,14 +4,14 @@
 //-----------------------------------------
 
 // user info
-const driver_name = "Sierra"
+const driver_name = "Noah"
 
 // vehicle info
-const mpg = 21;
-const fuel_capacity = 13;
+const mpg = 18;
+const fuel_capacity = 26;
 
 // trip info
-const distance_miles = 170;
+const distance_miles = 2400;
 const gas_price = 3.99;
 let is_round_trip = true;
 let total_distance;
