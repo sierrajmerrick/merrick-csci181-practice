@@ -148,6 +148,7 @@ button:hover {
     color:#2D3319;
     text-align: center;
     border-radius: 10px;
+    background-color:#517664;
 }
 
 textarea {
@@ -219,7 +220,6 @@ th, td {
 }
 
 #cards-list {
-    background-color: #FFFAF0;
     
 }
 
